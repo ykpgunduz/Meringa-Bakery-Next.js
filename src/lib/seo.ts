@@ -1,6 +1,6 @@
 export const SITE_NAME = "Meringa Bakery & Cafe";
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://meringabakery.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://meringa.harpysocial.com";
 
 /**
  * WhatsApp, iMessage, Telegram ve sosyal medya paylaşımlarında

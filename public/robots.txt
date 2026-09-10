@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/admin/
 
-Sitemap: https://meringabakery.com/sitemap.xml
+Sitemap: https://meringa.harpysocial.com/sitemap.xml

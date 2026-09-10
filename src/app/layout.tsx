@@ -141,6 +141,8 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
+        <link rel="image_src" href={`${SITE_URL}/og-image.jpg`} />
+        <meta name="image" content={`${SITE_URL}/og-image.jpg`} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

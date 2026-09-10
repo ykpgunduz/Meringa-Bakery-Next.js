@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getMenuData } from "@/lib/products";
+import { SITE_URL } from "@/lib/seo";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://meringabakery.com";
+  const siteUrl = SITE_URL;
   const data = await getMenuData();
 
   const categoryRoutes: MetadataRoute.Sitemap = data.categories.map((cat) => ({
