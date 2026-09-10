@@ -7,7 +7,13 @@ import FlashCleanup from "@/components/FlashCleanup";
 import LoginForm from "./LoginForm";
 
 export const metadata: Metadata = {
-  title: "Admin Giriş - Meringa QR Menu",
+  title: {
+    absolute: "Yönetici Girişi | Meringa Admin",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 /** Laravel: resources/views/admin/login.blade.php */

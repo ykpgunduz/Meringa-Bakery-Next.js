@@ -1,0 +1,22 @@
+{
+  "name": "Meringa Bakery & Cafe QR Menü",
+  "short_name": "Meringa",
+  "description": "Meringa Bakery & Cafe dijital QR menüsü. Taze fırın lezzetleri, artizan tatlılar ve kahvaltılıklar.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#853b17",
+  "background_color": "#853b17",
+  "display": "standalone",
+  "start_url": "/qr-menu",
+  "orientation": "portrait"
+}

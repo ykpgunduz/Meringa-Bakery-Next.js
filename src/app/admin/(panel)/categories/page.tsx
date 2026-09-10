@@ -7,7 +7,7 @@ import "@/styles/admin-categories.css";
 import CategoriesManager, { type AdminCategoryRow } from "./CategoriesManager";
 
 export const metadata: Metadata = {
-  title: "Kategoriler - Meringa QR Menu",
+  title: "Kategoriler",
 };
 
 /** Laravel: resources/views/admin/categories.blade.php */

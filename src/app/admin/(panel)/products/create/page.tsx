@@ -6,7 +6,7 @@ import "@/styles/admin-create-product.css";
 import CreateProductForm from "./CreateProductForm";
 
 export const metadata: Metadata = {
-  title: "Yeni Ürün Ekle - Meringa QR Menu",
+  title: "Yeni Ürün",
 };
 
 /** Laravel: resources/views/admin/create-product.blade.php */

@@ -7,7 +7,7 @@ import "@/styles/admin-edit-product.css";
 import EditProductForm from "./EditProductForm";
 
 export const metadata: Metadata = {
-  title: "Ürün Düzenle - Meringa QR Menu",
+  title: "Ürün Düzenle",
 };
 
 /** Laravel: resources/views/admin/edit-product.blade.php */

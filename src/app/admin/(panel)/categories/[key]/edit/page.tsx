@@ -7,7 +7,7 @@ import "@/styles/admin-edit-category.css";
 import EditCategoryForm from "./EditCategoryForm";
 
 export const metadata: Metadata = {
-  title: "Kategori Düzenle - Meringa QR Menu",
+  title: "Kategori Düzenle",
 };
 
 /** Laravel: resources/views/admin/edit-category.blade.php */

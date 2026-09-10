@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
 import { Inter } from "next/font/google";
 import { getMenuData } from "@/lib/products";
 import { categoryImage, productImage } from "@/lib/images";
@@ -14,9 +15,40 @@ const inter = Inter({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Meringa Bakery QR Menü",
-};
+import { DEFAULT_OG_IMAGE, SITE_NAME } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ key: string }>;
+}): Promise<Metadata> {
+  const { key } = await params;
+  const data = await getMenuData();
+  const category = data.categories.find((item) => item.key === key);
+  const categoryName = category?.name_tr ?? "Menü";
+  const desc = `Meringa Bakery & Cafe ${categoryName} menüsü. Güncel fiyatlar, taze içerikler ve detaylı alerjen bilgileri.`;
+
+  return {
+    title: `${categoryName}`,
+    description: desc,
+    alternates: {
+      canonical: `/category/${key}`,
+    },
+    openGraph: {
+      title: `${categoryName} | ${SITE_NAME}`,
+      description: desc,
+      url: `/category/${key}`,
+      siteName: SITE_NAME,
+      images: [DEFAULT_OG_IMAGE],
+    },
+    twitter: {
+      card: "summary",
+      title: `${categoryName} | ${SITE_NAME}`,
+      description: desc,
+      images: [DEFAULT_OG_IMAGE.url],
+    },
+  };
+}
 
 /** Tüm kategoriler derleme anında statik HTML'e dönüştürülür. */
 export async function generateStaticParams() {
@@ -33,6 +65,10 @@ export default async function CategoryProductsPage({
   const { key } = await params;
   const data = await getMenuData();
   const category = data.categories.find((item) => item.key === key);
+
+  if (!category) {
+    redirect("/qr-menu");
+  }
 
   // Arama tüm kategorilerde çalıştığı için aktif ürünlerin tamamı gönderilir.
   const allProducts: MenuProduct[] = [];

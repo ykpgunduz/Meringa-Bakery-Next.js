@@ -4,7 +4,7 @@ import "@/styles/admin-create-category.css";
 import CreateCategoryForm from "./CreateCategoryForm";
 
 export const metadata: Metadata = {
-  title: "Yeni Kategori Ekle - Meringa QR Menu",
+  title: "Yeni Kategori",
 };
 
 /** Laravel: resources/views/admin/create-category.blade.php */

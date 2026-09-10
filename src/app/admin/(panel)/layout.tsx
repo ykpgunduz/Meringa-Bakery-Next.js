@@ -1,7 +1,19 @@
+import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "@/styles/admin-layout.css";
 import AdminSidebar from "./AdminSidebar";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Meringa Admin Panel",
+    template: "%s | Meringa Admin",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 /** Laravel: resources/views/admin/layout.blade.php */
 export default function AdminPanelLayout({

@@ -10,7 +10,7 @@ import {
 } from "./ProductSearchContext";
 
 export const metadata: Metadata = {
-  title: "Ürünler - Meringa QR Menu",
+  title: "Ürünler",
 };
 
 /** Laravel: resources/views/admin/products.blade.php */

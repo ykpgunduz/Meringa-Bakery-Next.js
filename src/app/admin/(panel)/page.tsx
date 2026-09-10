@@ -6,7 +6,7 @@ import { categoryImage } from "@/lib/images";
 import "@/styles/admin-dashboard.css";
 
 export const metadata: Metadata = {
-  title: "Panel - Meringa QR Menu",
+  title: "Kontrol Paneli",
 };
 
 /** Laravel: resources/views/admin/dashboard.blade.php */

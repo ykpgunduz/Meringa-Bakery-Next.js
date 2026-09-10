@@ -47,6 +47,26 @@ function FlameIcon() {
   );
 }
 
+/** Fiyat etiketindeki ikon. */
+function PriceTagIcon() {
+  return (
+    <svg
+      width="13"
+      height="13"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+      <circle cx="7" cy="7" r="1.5" fill="currentColor" />
+    </svg>
+  );
+}
+
 function nameOf(product: MenuProduct, lang: Lang) {
   return lang === "tr"
     ? product.name_tr
@@ -253,6 +273,9 @@ export default function CategoryProductsClient({
                           )}
                           {product.allergens.length > 0 && (
                             <span className="product-allergen-icons">
+                              <span className="product-allergen-label">
+                                {lang === "tr" ? "Alerjenler:" : "Allergens:"}
+                              </span>
                               {sortAllergens(product.allergens).map((id) => {
                                 const allergen = getAllergen(id)!;
                                 const name =
@@ -308,7 +331,7 @@ export default function CategoryProductsClient({
                     loading="lazy"
                   />
                 </div>
-                <div className="footer-social" style={{ marginBottom: "8px" }}>
+                <div className="footer-social">
                   <a
                     href="https://www.instagram.com/meringabakeryy/"
                     target="_blank"
@@ -316,10 +339,10 @@ export default function CategoryProductsClient({
                     className="social-link instagram"
                   >
                     <svg
-                      width="21"
-                      height="21"
+                      width="18"
+                      height="18"
                       viewBox="0 0 448 512"
-                      fill="#b88900"
+                      fill="currentColor"
                       aria-hidden="true"
                     >
                       <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
@@ -333,8 +356,8 @@ export default function CategoryProductsClient({
                     className="social-link maps"
                   >
                     <svg
-                      width="20"
-                      height="20"
+                      width="18"
+                      height="18"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
@@ -345,42 +368,48 @@ export default function CategoryProductsClient({
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                       <circle cx="12" cy="10" r="3" />
                     </svg>
-                    <span>Haritalar</span>
+                    <span>{lang === "tr" ? "Haritalar" : "Maps"}</span>
                   </a>
                 </div>
                 <div className="contact-item">
-                  <svg
-                    width="28"
-                    height="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-                  <span>
+                  <div className="contact-icon">
+                    <svg
+                      width="18"
+                      height="18"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                  </div>
+                  <span className="contact-text">
                     Yeşilköy Mahallesi, Şehit Özcan Canik Sokak, No: 3/70B Bakırköy,
                     Florya/İstanbul
                   </span>
                 </div>
                 <div className="contact-item">
-                  <svg
-                    width="28"
-                    height="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span>Her Gün 07:30 – 00:00</span>
+                  <div className="contact-icon">
+                    <svg
+                      width="18"
+                      height="18"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <span className="contact-text">
+                    {lang === "tr" ? "Her Gün 07:30 – 00:00" : "Every Day 07:30 – 00:00"}
+                  </span>
                 </div>
               </div>
             </div>
@@ -466,7 +495,8 @@ export default function CategoryProductsClient({
                   className="product-detail-price-label"
                   id="productDetailPriceLabel"
                 >
-                  {lang === "tr" ? "Fiyat" : "Price"}
+                  <PriceTagIcon />
+                  <span>{lang === "tr" ? "Fiyat" : "Price"}</span>
                 </div>
                 <div className="product-detail-price" id="productDetailPrice">
                   {detail?.price}
@@ -476,7 +506,8 @@ export default function CategoryProductsClient({
               {detail?.calories !== undefined && (
                 <div className="product-detail-calorie-container">
                   <div className="product-detail-calorie-label">
-                    {lang === "tr" ? "Kalori" : "Calories"}
+                    <FlameIcon />
+                    <span>{lang === "tr" ? "Kalori" : "Calories"}</span>
                   </div>
                   <div className="product-detail-calorie">
                     {detail.calories}
@@ -575,7 +606,6 @@ export default function CategoryProductsClient({
             {searchResults.length > 0 ? (
               searchResults.map((product) => {
                 const productName = nameOf(product, lang);
-                const productDesc = descOf(product, lang);
                 const categoryName =
                   lang === "tr"
                     ? product.categoryName_tr
@@ -611,9 +641,6 @@ export default function CategoryProductsClient({
                       </div>
                       <div className="search-result-category">{categoryName}</div>
                       <div className="product-meta search-result-meta">
-                        {productDesc && (
-                          <span className="product-desc">{productDesc}</span>
-                        )}
                         {product.calories !== undefined && (
                           <span className="product-calories">
                             <FlameIcon />
@@ -622,6 +649,9 @@ export default function CategoryProductsClient({
                         )}
                         {product.allergens.length > 0 && (
                           <span className="product-allergen-icons">
+                            <span className="product-allergen-label">
+                              {lang === "tr" ? "Alerjenler:" : "Allergens:"}
+                            </span>
                             {sortAllergens(product.allergens).map((id) => {
                               const allergen = getAllergen(id)!;
                               const name =

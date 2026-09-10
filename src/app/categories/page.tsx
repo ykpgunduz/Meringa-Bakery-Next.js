@@ -12,8 +12,30 @@ const inter = Inter({
   display: "swap",
 });
 
+import { DEFAULT_OG_IMAGE, SITE_NAME } from "@/lib/seo";
+
 export const metadata: Metadata = {
-  title: "Meringa Bakery QR Menü",
+  title: "Menü Kategorileri",
+  description:
+    "Meringa Bakery & Cafe zengin menü kategorileri: Kahvaltılıklar, artizan tatlılar, soğuk ve sıcak kahveler, taze fırın ürünleri ve bowl çeşitleri.",
+  alternates: {
+    canonical: "/categories",
+  },
+  openGraph: {
+    title: "Menü Kategorileri | Meringa Bakery & Cafe",
+    description:
+      "Meringa Bakery & Cafe zengin menü kategorileri: Kahvaltılıklar, artizan tatlılar, kahveler ve daha fazlası.",
+    url: "/categories",
+    siteName: SITE_NAME,
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary",
+    title: "Menü Kategorileri | Meringa Bakery & Cafe",
+    description:
+      "Meringa Bakery & Cafe zengin menü kategorileri: Kahvaltılıklar, artizan tatlılar, kahveler ve daha fazlası.",
+    images: [DEFAULT_OG_IMAGE.url],
+  },
 };
 
 /** Laravel: resources/views/category.blade.php */
