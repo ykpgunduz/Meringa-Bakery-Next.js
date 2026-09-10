@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 import "@/styles/welcome.css";
 import MenuButton from "./MenuButton";
@@ -13,6 +13,10 @@ const montserrat = Montserrat({
 });
 
 import { DEFAULT_OG_IMAGE, SITE_NAME } from "@/lib/seo";
+
+export const viewport: Viewport = {
+  themeColor: "#853b17",
+};
 
 export const metadata: Metadata = {
   title: {
