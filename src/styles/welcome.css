@@ -1,0 +1,90 @@
+.page-welcome {
+            min-height: 100vh;
+            margin: 0;
+            font-family: var(--font-montserrat), sans-serif;
+            position: relative;
+            overflow: hidden;
+        
+}
+
+.page-welcome .bg-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 1;
+        
+}
+
+.page-welcome .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.55);
+            z-index: 2;
+        
+}
+
+.page-welcome .center-content {
+            position: relative;
+            z-index: 3;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -80px;
+        
+}
+
+.page-welcome .action-btn {
+            display: block;
+            margin: 0 auto;
+            padding: 1rem 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+            border: 1.5px solid rgba(255, 255, 255, 0.8);
+            border-radius: 2.5rem;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+            transition: all 0.3s ease;
+            max-width: 200px;
+            width: 100%;
+            letter-spacing: 1.5px;
+            text-align: center;
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+            user-select: none;
+            backdrop-filter: blur(10px);
+        
+}
+
+@media (max-width: 480px) {
+    .page-welcome .action-btn {
+                padding: 0.75rem 0rem;
+                border-radius: 2rem;
+                font-size: 1.25rem;
+            
+    }
+}
+
+.page-welcome .action-btn:hover {
+            background: rgba(255, 255, 255, 1);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+            border-color: rgba(255, 255, 255, 1);
+        
+}
+
+.page-welcome .action-btn:active {
+            transform: scale(0.98) translateY(-1px);
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+        
+}

@@ -1,0 +1,1661 @@
+{
+    "categories": [
+        {
+            "key": "kahvaltiliklar",
+            "name_tr": "Atıştırmalık Kahvaltı",
+            "name_en": "Breakfast Snacks",
+            "image": "kahvaltiliklar.jpg"
+        },
+        {
+            "key": "bowl-salatalar",
+            "name_tr": "Bowl ve Salatalar",
+            "name_en": "Bowls & Salads",
+            "image": "bowl-salatalar.jpg"
+        },
+        {
+            "key": "tatlilar",
+            "name_tr": "Tatlılar",
+            "name_en": "Desserts",
+            "image": "tatlilar.jpg"
+        },
+        {
+            "key": "soguk-icecekler",
+            "name_tr": "Soğuk İçecekler",
+            "name_en": "Cold Drinks",
+            "image": "soguk-icecekler.jpg"
+        },
+        {
+            "key": "soguk-kahveler",
+            "name_tr": "Soğuk Kahveler",
+            "name_en": "Cold Coffees",
+            "image": "soguk-kahveler.jpg"
+        },
+        {
+            "key": "sicak-icecekler",
+            "name_tr": "Sıcak İçecekler",
+            "name_en": "Hot Drinks",
+            "image": "sicak-icecekler.jpg"
+        },
+        {
+            "key": "sicak-kahveler",
+            "name_tr": "Sıcak Kahveler",
+            "name_en": "Hot Coffees",
+            "image": "sicak-kahveler.jpg"
+        },
+        {
+            "key": "ekmekler",
+            "name_tr": "Ekmekler",
+            "name_en": "Breads",
+            "image": "ekmekler.jpg"
+        }
+    ],
+    "products": {
+        "kahvaltiliklar": [
+            {
+                "id": 1,
+                "name_tr": "Ispanaklı Labneli Fupas",
+                "name_en": "Spinach Labneh Fupas",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 40,
+                "calories": 200,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 2,
+                "name_tr": "Zeytinli Fupas",
+                "name_en": "Olive Fupas",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 40,
+                "calories": 210,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 3,
+                "name_tr": "Ev Poğaçası",
+                "name_en": "Homemade Pastry",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 50,
+                "calories": 240,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "susam"
+                ],
+                "active": true
+            },
+            {
+                "id": 4,
+                "name_tr": "Tereyağlı Simit",
+                "name_en": "Buttered Bagel",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 55,
+                "calories": 340,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "susam"
+                ],
+                "image": "tereyagli-simit.jpeg",
+                "active": true
+            },
+            {
+                "id": 5,
+                "name_tr": "Kruvasan",
+                "name_en": "Croissant",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 210,
+                "calories": 260,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 6,
+                "name_tr": "Roll Kruvasan",
+                "name_en": "Roll Croissant",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 140,
+                "calories": 300,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 7,
+                "name_tr": "Küp Kruvasan",
+                "name_en": "Cube Croissant",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 140,
+                "calories": 330,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": false
+            },
+            {
+                "id": 8,
+                "name_tr": "Pao de Queijo",
+                "name_en": "Pao de Queijo",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 55,
+                "calories": 140,
+                "allergens": [
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 9,
+                "name_tr": "Sandwich",
+                "name_en": "Sandwich",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 420,
+                "calories": 550,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "hardal"
+                ],
+                "active": true
+            },
+            {
+                "id": 10,
+                "name_tr": "Kruvasan Sandwich",
+                "name_en": "Croissant Sandwich",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 480,
+                "calories": 620,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "hardal"
+                ],
+                "image": "kruvasan-sandwich.jpeg",
+                "active": true
+            },
+            {
+                "id": 11,
+                "name_tr": "Focaccia Sandwich",
+                "name_en": "Focaccia Sandwich",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 480,
+                "calories": 640,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "hardal"
+                ],
+                "active": false
+            },
+            {
+                "id": 12,
+                "name_tr": "Saçaklı Poğaça",
+                "name_en": "Sacakli Pogaca",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 60,
+                "calories": 300,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "susam"
+                ],
+                "active": true
+            },
+            {
+                "id": 13,
+                "name_tr": "Şarküteri Tabağı",
+                "name_en": "Charcuterie Plate",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 620,
+                "calories": 850,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "kuruyemis",
+                    "sulfit"
+                ],
+                "active": true
+            },
+            {
+                "id": 14,
+                "name_tr": "Poğaça Tabağı",
+                "name_en": "Pogaca Plate",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 520,
+                "calories": 900,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "susam"
+                ],
+                "active": true
+            },
+            {
+                "id": 15,
+                "name_tr": "Peynirli Omlet",
+                "name_en": "Cheese Omelette",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 320,
+                "calories": 420,
+                "allergens": [
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "peynirli-omlet.jpeg",
+                "active": true
+            },
+            {
+                "id": 16,
+                "name_tr": "Avokadolu Omlet",
+                "name_en": "Avocado Omelette",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 360,
+                "calories": 470,
+                "allergens": [
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "avakadolu-omlet.jpeg",
+                "active": true
+            },
+            {
+                "id": 17,
+                "name_tr": "Sade Omlet",
+                "name_en": "Plain Omelette",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 290,
+                "calories": 330,
+                "allergens": [
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 105,
+                "name_tr": "4 Peynirli Tost",
+                "name_en": "4 cheese toast",
+                "desc_tr": "Parmesan sos, cheddar, kaşar peyniri, beyaz peynir, akdeniz yeşilliği ve çeri domates",
+                "desc_en": ".",
+                "price": 390,
+                "calories": 520,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "1770512022.jpeg",
+                "active": true
+            },
+            {
+                "id": 106,
+                "name_tr": "Ekmek üstü somonlu göz yumurta",
+                "name_en": "Fried egg with salmon on bread",
+                "desc_tr": "Avakado sos, somon füme, göz yumurta",
+                "desc_en": ".",
+                "price": 520,
+                "calories": 460,
+                "allergens": [
+                    "gluten",
+                    "yumurta",
+                    "balik"
+                ],
+                "image": "1770512476.jpeg",
+                "active": true
+            },
+            {
+                "id": 107,
+                "name_tr": "Ekmek üstü füme et",
+                "name_en": "Smoked meat on bread",
+                "desc_tr": "Domates dip sos, dana cotta, hellim peyniri, roka,toz parmesan, labne,siyah zeytin, yeşil zeytin",
+                "desc_en": ".",
+                "price": 650,
+                "calories": 540,
+                "allergens": [
+                    "gluten",
+                    "sut"
+                ],
+                "image": "1770512731.jpeg",
+                "active": true
+            },
+            {
+                "id": 108,
+                "name_tr": "Ev usulü tost",
+                "name_en": "Homemade Toast",
+                "desc_tr": "Biber salçası, sucuk, sosis, turşu, domates, haşlanmış yumurta, cheddar peyniri, kaşar peyniri, siyah zeytin, yeşil zeytin, akdeniz yeşilliği ve çeri domates",
+                "desc_en": ".",
+                "price": 490,
+                "calories": 580,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "1770513098.jpeg",
+                "active": true
+            },
+            {
+                "id": 109,
+                "name_tr": "Kruvasan içi çırpılmış yumurta",
+                "name_en": "Scrambled eggs",
+                "desc_tr": "Tereyağlı Kruvasan içine çırpılmış yumurta, labne,kabak çekirdeği,siyah zeytin, yeşil zeytin, avokado sos",
+                "desc_en": ".",
+                "price": 550,
+                "calories": 490,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "1770513469.jpeg",
+                "active": true
+            }
+        ],
+        "ekmekler": [
+            {
+                "id": 18,
+                "name_tr": "Kızılbuğday",
+                "name_en": "Red Wheat",
+                "desc_tr": "420 gr",
+                "desc_en": "420 Gr",
+                "price": 90,
+                "calories": 1010,
+                "allergens": [
+                    "gluten"
+                ],
+                "active": true
+            },
+            {
+                "id": 19,
+                "name_tr": "Sade Fransız Baget",
+                "name_en": "Plain French Baguette",
+                "desc_tr": "350 gr",
+                "desc_en": "350 Gr",
+                "price": 40,
+                "calories": 950,
+                "allergens": [
+                    "gluten"
+                ],
+                "active": true
+            },
+            {
+                "id": 20,
+                "name_tr": "Zeytinli Fransız Baget",
+                "name_en": "Olive French Baguette",
+                "desc_tr": "350 gr",
+                "desc_en": "350 Gr",
+                "price": 50,
+                "calories": 1000,
+                "allergens": [
+                    "gluten"
+                ],
+                "active": true
+            },
+            {
+                "id": 21,
+                "name_tr": "Chia",
+                "name_en": "Chia",
+                "desc_tr": "420 gr",
+                "desc_en": "420 Gr",
+                "price": 90,
+                "calories": 1050,
+                "allergens": [
+                    "gluten"
+                ],
+                "active": true
+            },
+            {
+                "id": 22,
+                "name_tr": "Malt",
+                "name_en": "Malt",
+                "desc_tr": "420 gr",
+                "desc_en": "420 Gr",
+                "price": 90,
+                "calories": 1030,
+                "allergens": [
+                    "gluten"
+                ],
+                "active": true
+            },
+            {
+                "id": 23,
+                "name_tr": "Focaccia",
+                "name_en": "Focaccia",
+                "desc_tr": "200 gr",
+                "desc_en": "200 Gr",
+                "price": 120,
+                "calories": 540,
+                "allergens": [
+                    "gluten"
+                ],
+                "active": true
+            },
+            {
+                "id": 24,
+                "name_tr": "Dinkelberger",
+                "name_en": "Dinkelberger",
+                "desc_tr": "500 gr",
+                "desc_en": "500 Gr",
+                "price": 180,
+                "calories": 1200,
+                "allergens": [
+                    "gluten"
+                ],
+                "active": true
+            }
+        ],
+        "tatlilar": [
+            {
+                "id": 25,
+                "name_tr": "Çilekli Milföy",
+                "name_en": "Strawberry Mille-feuille",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 380,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true,
+                "image": "cilekli-milfoy.jpeg"
+            },
+            {
+                "id": 26,
+                "name_tr": "Tiramisu",
+                "name_en": "Tiramisu",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 360,
+                "calories": 290,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 27,
+                "name_tr": "Frambuazlı Tart",
+                "name_en": "Raspberry Tart",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 330,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 28,
+                "name_tr": "Çilekli Tart",
+                "name_en": "Strawberry Tart",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 320,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "cilekli-tart.jpeg",
+                "active": true
+            },
+            {
+                "id": 29,
+                "name_tr": "Çikolatalı Ekler",
+                "name_en": "Chocolate Eclair",
+                "desc_tr": "Kg",
+                "desc_en": "Kg",
+                "price": 1100,
+                "calories": 250,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "image": "ekler.jpeg",
+                "active": true
+            },
+            {
+                "id": 30,
+                "name_tr": "Nutella Ekler",
+                "name_en": "Nutella Eclair",
+                "desc_tr": "Kg",
+                "desc_en": "Kg",
+                "price": 1100,
+                "calories": 280,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "kuruyemis",
+                    "soya"
+                ],
+                "image": "ekler.jpeg",
+                "active": true
+            },
+            {
+                "id": 31,
+                "name_tr": "Lotus Ekler",
+                "name_en": "Lotus Eclair",
+                "desc_tr": "Kg",
+                "desc_en": "Kg",
+                "price": 1100,
+                "calories": 280,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "image": "ekler.jpeg",
+                "active": true
+            },
+            {
+                "id": 32,
+                "name_tr": "Angel Cake",
+                "name_en": "Angel Cake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 290,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 33,
+                "name_tr": "San Sebastian",
+                "name_en": "San Sebastian",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 410,
+                "calories": 400,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "san-sebastian.jpg",
+                "active": true
+            },
+            {
+                "id": 34,
+                "name_tr": "Lotus Cheese Cake",
+                "name_en": "Lotus CheeseCake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 420,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "active": true,
+                "image": "1772981229.jpeg"
+            },
+            {
+                "id": 35,
+                "name_tr": "Nutella Cheese Cake",
+                "name_en": "Nutella CheeseCake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 430,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "kuruyemis",
+                    "soya"
+                ],
+                "active": true
+            },
+            {
+                "id": 36,
+                "name_tr": "Budapeşte",
+                "name_en": "Budapest",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 400,
+                "calories": 380,
+                "allergens": [
+                    "sut",
+                    "yumurta",
+                    "kuruyemis"
+                ],
+                "image": "budapeste.jpg",
+                "active": true
+            },
+            {
+                "id": 37,
+                "name_tr": "Deluxe Cake",
+                "name_en": "Deluxe Cake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 380,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 38,
+                "name_tr": "Çikolatalı İsveç Sarma",
+                "name_en": "Chocolate Swedish Roll",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 330,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "image": "cikolatali-isvec-sarma.jpeg",
+                "active": true
+            },
+            {
+                "id": 39,
+                "name_tr": "Beyaz Çikolatalı İsveç Sarma",
+                "name_en": "White Chocolate Swedish Roll",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 380,
+                "calories": 340,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "image": "beyaz-isvec-sarma.jpeg",
+                "active": true
+            },
+            {
+                "id": 40,
+                "name_tr": "Ruby Cake",
+                "name_en": "Ruby Cake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 420,
+                "calories": 360,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "image": "ruby-cake.jpeg",
+                "active": true
+            },
+            {
+                "id": 41,
+                "name_tr": "Şelale",
+                "name_en": "Waterfall",
+                "desc_tr": "Kg",
+                "desc_en": "Kg",
+                "price": 1100,
+                "calories": 330,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 42,
+                "name_tr": "Nutella Browni",
+                "name_en": "Nutella Brownie",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 340,
+                "calories": 400,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "kuruyemis",
+                    "soya"
+                ],
+                "active": true
+            },
+            {
+                "id": 43,
+                "name_tr": "Lotus Browni",
+                "name_en": "Lotus Brownie",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 340,
+                "calories": 400,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "active": true
+            },
+            {
+                "id": 44,
+                "name_tr": "Çilekli Kruvasan",
+                "name_en": "Strawberry Croissant",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 420,
+                "calories": 420,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "cilekli-kruvasan.jpeg",
+                "active": true
+            },
+            {
+                "id": 45,
+                "name_tr": "Fıstıklı Tek Pasta",
+                "name_en": "Single Pistachio Cake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 460,
+                "calories": 450,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "kuruyemis"
+                ],
+                "image": "fistikli-tek-pasta.jpeg",
+                "active": true
+            },
+            {
+                "id": 46,
+                "name_tr": "Turta No: 1",
+                "name_en": "Torte No: 1",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 1850,
+                "calories": 400,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 47,
+                "name_tr": "Karamel Çikolata Ekler",
+                "name_en": "Caramel Chocolate Eclair",
+                "desc_tr": "Kg",
+                "desc_en": "Kg",
+                "price": 1100,
+                "calories": 270,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "image": "ekler.jpeg",
+                "active": true
+            },
+            {
+                "id": 48,
+                "name_tr": "Fıstıklı Ekler",
+                "name_en": "Pistachio Eclair",
+                "desc_tr": "Kg",
+                "desc_en": "Kg",
+                "price": 1100,
+                "calories": 290,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "kuruyemis"
+                ],
+                "image": "ekler.jpeg",
+                "active": true
+            },
+            {
+                "id": 49,
+                "name_tr": "Tiramisu Ekler",
+                "name_en": "Tiramisu Eclair",
+                "desc_tr": "Kg",
+                "desc_en": "Kg",
+                "price": 1100,
+                "calories": 260,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "image": "ekler.jpeg",
+                "active": true
+            },
+            {
+                "id": 50,
+                "name_tr": "Sütlaç",
+                "name_en": "Rice Pudding",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 290,
+                "calories": 260,
+                "allergens": [
+                    "sut"
+                ],
+                "active": true
+            },
+            {
+                "id": 51,
+                "name_tr": "Magnolia",
+                "name_en": "Magnolia",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 290,
+                "calories": 320,
+                "allergens": [
+                    "gluten",
+                    "sut"
+                ],
+                "image": "magnolya.jpg",
+                "active": true
+            },
+            {
+                "id": 52,
+                "name_tr": "Profiterol",
+                "name_en": "Profiterole",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 280,
+                "calories": 430,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "soya"
+                ],
+                "active": true
+            },
+            {
+                "id": 53,
+                "name_tr": "Macaron",
+                "name_en": "Macaron",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 240,
+                "calories": 90,
+                "allergens": [
+                    "sut",
+                    "yumurta",
+                    "kuruyemis"
+                ],
+                "active": true
+            },
+            {
+                "id": 54,
+                "name_tr": "Dubai Tek Pasta",
+                "name_en": "Dubai Single Cake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 480,
+                "calories": 480,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "kuruyemis",
+                    "susam",
+                    "soya"
+                ],
+                "image": "dubai-tek-pasta.jpeg",
+                "active": true
+            },
+            {
+                "id": 55,
+                "name_tr": "Karpatka",
+                "name_en": "Karpatka",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 400,
+                "calories": 350,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta"
+                ],
+                "active": true
+            },
+            {
+                "id": 111,
+                "name_tr": "Ekstra çikolata",
+                "name_en": "Extra chocolate",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 80,
+                "calories": 220,
+                "allergens": [
+                    "sut",
+                    "soya"
+                ],
+                "active": true
+            }
+        ],
+        "sicak-kahveler": [
+            {
+                "id": 56,
+                "name_tr": "Espresso",
+                "name_en": "Espresso",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 155,
+                "calories": 5,
+                "image": "espresso.jpg",
+                "active": true
+            },
+            {
+                "id": 57,
+                "name_tr": "Double Espresso",
+                "name_en": "Double Espresso",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 185,
+                "calories": 10,
+                "image": "double-espresso.jpg",
+                "active": true
+            },
+            {
+                "id": 58,
+                "name_tr": "Americano",
+                "name_en": "Americano",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 210,
+                "calories": 10,
+                "image": "americano.jpg",
+                "active": true
+            },
+            {
+                "id": 59,
+                "name_tr": "Latte",
+                "name_en": "Latte",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 215,
+                "calories": 180,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "cafe-latte.jpg",
+                "active": true
+            },
+            {
+                "id": 60,
+                "name_tr": "Cappuccino",
+                "name_en": "Cappuccino",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 220,
+                "calories": 120,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "cappuccino.jpg",
+                "active": true
+            },
+            {
+                "id": 61,
+                "name_tr": "Filtre Kahve",
+                "name_en": "Filter Coffee",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 210,
+                "calories": 5,
+                "image": "filtre-kahve.jpg",
+                "active": true
+            },
+            {
+                "id": 62,
+                "name_tr": "Sütlü Filtre Kahve",
+                "name_en": "Milk Filter Coffee",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 215,
+                "calories": 60,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "filtre-kahve.jpg",
+                "active": true
+            },
+            {
+                "id": 63,
+                "name_tr": "Mocha",
+                "name_en": "Mocha",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 250,
+                "calories": 290,
+                "allergens": [
+                    "sut",
+                    "soya"
+                ],
+                "image": "mocha.jpg",
+                "active": true
+            },
+            {
+                "id": 64,
+                "name_tr": "White Chocolate Mocha",
+                "name_en": "White Chocolate Mocha",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 250,
+                "calories": 320,
+                "allergens": [
+                    "sut",
+                    "soya"
+                ],
+                "image": "white-mocha.jpg",
+                "active": true
+            },
+            {
+                "id": 90,
+                "name_tr": "Lotus Latte",
+                "name_en": "Lotus Latte",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 220,
+                "calories": 320,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "soya"
+                ],
+                "image": "lotus-latte.jpg",
+                "active": true
+            },
+            {
+                "id": 65,
+                "name_tr": "Espresso Macchiato",
+                "name_en": "Espresso Macchiato",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 175,
+                "calories": 15,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "espresso-macchiato.jpg",
+                "active": true
+            },
+            {
+                "id": 66,
+                "name_tr": "Türk Kahvesi",
+                "name_en": "Turkish Coffee",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 150,
+                "calories": 25,
+                "image": "turk-kahvesi.jpg",
+                "active": true
+            },
+            {
+                "id": 67,
+                "name_tr": "Aromalar",
+                "name_en": "Flavors",
+                "desc_tr": "Çikolata, Fındık, Karamel, Vanilya, Beyaz Çikolata",
+                "desc_en": "Chocolate, Hazelnut, Caramel, Vanilla, White Chocolate",
+                "price": 40,
+                "calories": 20,
+                "allergens": [
+                    "sut",
+                    "kuruyemis",
+                    "soya"
+                ],
+                "image": "aromalar.jpg",
+                "active": true
+            },
+            {
+                "id": 102,
+                "name_tr": "Cortado",
+                "name_en": "Cortado",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 185,
+                "calories": 75,
+                "allergens": [
+                    "sut"
+                ],
+                "active": true
+            },
+            {
+                "id": 103,
+                "name_tr": "Flat white",
+                "name_en": "Flat white",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 215,
+                "calories": 130,
+                "allergens": [
+                    "sut"
+                ],
+                "active": true
+            }
+        ],
+        "soguk-kahveler": [
+            {
+                "id": 68,
+                "name_tr": "Ice Latte",
+                "name_en": "Iced Latte",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 220,
+                "calories": 160,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "ice-latte.jpg",
+                "active": true
+            },
+            {
+                "id": 69,
+                "name_tr": "Ice Americano",
+                "name_en": "Iced Americano",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 210,
+                "calories": 10,
+                "image": "ice-americano.jpg",
+                "active": true
+            },
+            {
+                "id": 70,
+                "name_tr": "Ice Mocha",
+                "name_en": "Iced Mocha",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 280,
+                "allergens": [
+                    "sut",
+                    "soya"
+                ],
+                "image": "ice-mocha.jpg",
+                "active": true
+            },
+            {
+                "id": 71,
+                "name_tr": "Ice White Mocha",
+                "name_en": "Iced White Mocha",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 300,
+                "allergens": [
+                    "sut",
+                    "soya"
+                ],
+                "image": "ice-white-mocha.jpg",
+                "active": true
+            },
+            {
+                "id": 91,
+                "name_tr": "Ice Lotus Latte",
+                "name_en": "Ice Lotus Latte",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 220,
+                "calories": 330,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "soya"
+                ],
+                "image": "ice-lotus-latte.jpg",
+                "active": true
+            },
+            {
+                "id": 72,
+                "name_tr": "Aromalar",
+                "name_en": "Flavors",
+                "desc_tr": "Çikolata, Fındık, Karamel, Vanilya, Beyaz Çikolata",
+                "desc_en": "Chocolate, Hazelnut, Caramel, Vanilla, White Chocolate",
+                "price": 40,
+                "calories": 20,
+                "allergens": [
+                    "sut",
+                    "kuruyemis",
+                    "soya"
+                ],
+                "image": "aromalar.jpg",
+                "active": true
+            }
+        ],
+        "sicak-icecekler": [
+            {
+                "id": 73,
+                "name_tr": "Çay",
+                "name_en": "Tea",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 75,
+                "calories": 2,
+                "image": "cay.jpg",
+                "active": true
+            },
+            {
+                "id": 74,
+                "name_tr": "Fincan çay",
+                "name_en": "Cup Tea",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 110,
+                "calories": 2,
+                "image": "fincan-cay.jpg",
+                "active": true
+            },
+            {
+                "id": 104,
+                "name_tr": "Sıcak Çikolata",
+                "name_en": "Hot Chocolate",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 230,
+                "active": true,
+                "allergens": []
+            }
+        ],
+        "soguk-icecekler": [
+            {
+                "id": 75,
+                "name_tr": "Soda",
+                "name_en": "Soda",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 110,
+                "calories": 0,
+                "image": "soda.jpg",
+                "active": true
+            },
+            {
+                "id": 76,
+                "name_tr": "Su",
+                "name_en": "Water",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 40,
+                "calories": 0,
+                "image": "su.jpg",
+                "active": true
+            },
+            {
+                "id": 77,
+                "name_tr": "Gazoz",
+                "name_en": "Soda Pop",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 95,
+                "calories": 120,
+                "image": "gazoz.jpeg",
+                "active": true
+            },
+            {
+                "id": 78,
+                "name_tr": "Meyve suyu",
+                "name_en": "Fruit Juice",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 120,
+                "calories": 100,
+                "image": "meyve-suyu.jpg",
+                "active": true
+            },
+            {
+                "id": 79,
+                "name_tr": "Fuse Tea Limon",
+                "name_en": "Fuse Tea Lemon",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 80,
+                "calories": 90,
+                "image": "fusetea-limon.jpg",
+                "active": true
+            },
+            {
+                "id": 80,
+                "name_tr": "Fuse Tea Şeftali",
+                "name_en": "Fuse Tea Peach",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 80,
+                "calories": 95,
+                "image": "fusetea-seftali.jpg",
+                "active": true
+            },
+            {
+                "id": 81,
+                "name_tr": "Limonata",
+                "name_en": "Lemonade",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 220,
+                "calories": 180,
+                "image": "limonata.jpg",
+                "active": true
+            },
+            {
+                "id": 82,
+                "name_tr": "Yeşil Elma Frozen",
+                "name_en": "Green Apple Frozen",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 240,
+                "calories": 220,
+                "image": "yesil-elmali-frozen.jpg",
+                "active": false
+            },
+            {
+                "id": 83,
+                "name_tr": "Mango Frozen",
+                "name_en": "Mango Frozen",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 240,
+                "calories": 240,
+                "image": "mangolu-frozen.jpg",
+                "active": false
+            },
+            {
+                "id": 84,
+                "name_tr": "Ananas Frozen",
+                "name_en": "Pineapple Frozen",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 240,
+                "calories": 230,
+                "image": "ananasli-frozen.jpg",
+                "active": false
+            },
+            {
+                "id": 85,
+                "name_tr": "Çilek Frozen",
+                "name_en": "Strawberry Frozen",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 240,
+                "calories": 210,
+                "image": "cilekli-frozen.jpg",
+                "active": false
+            },
+            {
+                "id": 86,
+                "name_tr": "Orman Meyve Frozen",
+                "name_en": "Forest Fruit Frozen",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 240,
+                "calories": 220,
+                "image": "orman-meyveli-frozen.jpg",
+                "active": false
+            },
+            {
+                "id": 87,
+                "name_tr": "Mojito",
+                "name_en": "Mojito",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 270,
+                "calories": 180,
+                "image": "mojito.jpg",
+                "active": false
+            },
+            {
+                "id": 88,
+                "name_tr": "Coollime",
+                "name_en": "Coollime",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 270,
+                "calories": 120,
+                "image": "cool-lime.jpg",
+                "active": false
+            },
+            {
+                "id": 89,
+                "name_tr": "Hibiscus",
+                "name_en": "Hibiscus",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 270,
+                "calories": 130,
+                "image": "hibiscus.jpg",
+                "active": false
+            },
+            {
+                "id": 92,
+                "name_tr": "Çilekli Milkshake",
+                "name_en": "Strawberry Milkshake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 480,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "cilekli-milkshake.jpg",
+                "active": false
+            },
+            {
+                "id": 93,
+                "name_tr": "Çikolatalı Milkshake",
+                "name_en": "Chocolate Milkshake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 520,
+                "allergens": [
+                    "sut",
+                    "soya"
+                ],
+                "image": "cikolatali-milkshake.jpg",
+                "active": false
+            },
+            {
+                "id": 94,
+                "name_tr": "Vanilya Milkshake",
+                "name_en": "Vanilla Milkshake",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 470,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "vanilia-milkshake.jpg",
+                "active": false
+            },
+            {
+                "id": 95,
+                "name_tr": "Yaban Mersin Smoothie",
+                "name_en": "Blueberry Smoothie",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 260,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "yaban-mersinli-smoothie.jpg",
+                "active": false
+            },
+            {
+                "id": 96,
+                "name_tr": "Çilek Smoothie",
+                "name_en": "Strawberry Smoothie",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 250,
+                "allergens": [
+                    "sut"
+                ],
+                "image": "cilekli-smoothie.jpg",
+                "active": false
+            },
+            {
+                "id": 97,
+                "name_tr": "Çikolata Smoothie",
+                "name_en": "Chocolate Smoothie",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 260,
+                "calories": 330,
+                "allergens": [
+                    "sut",
+                    "soya"
+                ],
+                "image": "cikolatali-smoothie.jpg",
+                "active": false
+            },
+            {
+                "id": 110,
+                "name_tr": "Churchill",
+                "name_en": "Churchill",
+                "desc_tr": "Adet",
+                "desc_en": "Piece",
+                "price": 150,
+                "active": true,
+                "allergens": []
+            }
+        ],
+        "bowl-salatalar": [
+            {
+                "id": 98,
+                "name_tr": "Tavuklu Sezar Salata",
+                "name_en": "Chicken Caesar Salad",
+                "desc_tr": "Porsiyon",
+                "desc_en": "Portion",
+                "price": 550,
+                "calories": 510,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "balik",
+                    "hardal"
+                ],
+                "image": "tavuklu-sezar-salata.jpeg",
+                "active": false
+            },
+            {
+                "id": 99,
+                "name_tr": "Somon Fümeli Salata",
+                "name_en": "Smoked Salmon Salad",
+                "desc_tr": "Porsiyon",
+                "desc_en": "Portion",
+                "price": 580,
+                "calories": 420,
+                "allergens": [
+                    "yumurta",
+                    "balik",
+                    "hardal"
+                ],
+                "active": false
+            },
+            {
+                "id": 100,
+                "name_tr": "Köfteli Bowl",
+                "name_en": "Meatball Bowl",
+                "desc_tr": "Porsiyon",
+                "desc_en": "Portion",
+                "price": 620,
+                "calories": 620,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "yumurta",
+                    "hardal"
+                ],
+                "active": false
+            },
+            {
+                "id": 101,
+                "name_tr": "Granola",
+                "name_en": "Granola",
+                "desc_tr": "Porsiyon",
+                "desc_en": "Portion",
+                "price": 480,
+                "calories": 400,
+                "allergens": [
+                    "gluten",
+                    "sut",
+                    "kuruyemis",
+                    "sulfit"
+                ],
+                "image": "granola.jpeg",
+                "active": true
+            }
+        ]
+    }
+}

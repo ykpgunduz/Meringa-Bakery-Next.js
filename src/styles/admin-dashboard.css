@@ -1,0 +1,611 @@
+/* Modern Cards */
+.page-admin-dashboard .modern-card {
+    border: none;
+    border-radius: 20px !important;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.page-admin-dashboard .card.modern-card {
+    border-radius: 20px !important;
+}
+
+.page-admin-dashboard .modern-card-header {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    border: none;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+}
+
+.page-admin-dashboard .modern-card-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.1));
+    opacity: 0.5;
+}
+
+.page-admin-dashboard .header-content {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.page-admin-dashboard .header-icon-wrapper {
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.page-admin-dashboard .header-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-admin-dashboard .header-text {
+    flex: 1;
+}
+
+.page-admin-dashboard .header-title {
+    margin: 0 0 3px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-admin-dashboard .header-subtitle {
+    margin: 0;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern List */
+.page-admin-dashboard .modern-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.page-admin-dashboard .modern-list-item {
+    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.page-admin-dashboard .modern-list-item:hover {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.page-admin-dashboard .modern-list-item.first {
+    border-top: none;
+}
+
+.page-admin-dashboard .modern-list-item:last-child {
+    border-bottom: none;
+}
+
+.page-admin-dashboard .list-item-content {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.page-admin-dashboard .list-item-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.page-admin-dashboard .list-item-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 25%;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+    border: 2px solid #e9ecef;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-admin-dashboard .category-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.page-admin-dashboard .list-item-image:hover .category-image {
+    transform: scale(1.1);
+}
+
+.page-admin-dashboard .list-item-title {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.page-admin-dashboard .list-item-subtitle {
+    color: #6c757d;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.page-admin-dashboard .list-item-badge {
+    flex-shrink: 0;
+}
+
+.page-admin-dashboard .modern-badge {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+}
+
+.page-admin-dashboard .modern-badge small {
+    font-size: 10px;
+    opacity: 0.8;
+    margin-top: 1px;
+}
+
+/* Empty State */
+.page-admin-dashboard .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #6c757d;
+}
+
+.page-admin-dashboard .empty-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #adb5bd;
+}
+
+.page-admin-dashboard .empty-title {
+    color: #495057;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.page-admin-dashboard .empty-text {
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Scrollbar Styling */
+.page-admin-dashboard .modern-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.page-admin-dashboard .modern-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.page-admin-dashboard .modern-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    border-radius: 3px;
+}
+
+.page-admin-dashboard .modern-list::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #2980b9, #1f5f8b);
+}
+
+@media (max-width: 768px) {
+    .page-admin-dashboard .modern-card-header {
+        height: 100px;
+    
+    }
+
+    .page-admin-dashboard .header-content {
+        padding: 10px 10px;
+    
+    }
+
+    .page-admin-dashboard .header-icon-wrapper {
+        margin-right: 20px;
+    
+    }
+
+    .page-admin-dashboard .header-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+        border-width: 2px;
+    
+    }
+
+    .page-admin-dashboard .header-title {
+        font-size: 19px;
+    
+    }
+
+    .page-admin-dashboard .header-subtitle {
+        font-size: 12px;
+    
+    }
+
+    .page-admin-dashboard .list-item-content {
+        padding: 12px 15px;
+        gap: 12px;
+    
+    }
+
+    .page-admin-dashboard .list-item-avatar {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    
+    }
+
+    .page-admin-dashboard .list-item-image {
+        width: 50px;
+        height: 50px;
+        border-width: 1px;
+    
+    }
+
+    .page-admin-dashboard .modern-badge {
+        min-width: 50px;
+        padding: 6px 10px;
+    
+    }
+}
+
+/* Stat Cards */
+.page-admin-dashboard .stat-card {
+    border: none;
+    border-radius: 20px !important;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.page-admin-dashboard .card.stat-card {
+    border-radius: 20px !important;
+}
+
+.page-admin-dashboard .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--stat-color), var(--stat-color-light));
+}
+
+.page-admin-dashboard .stat-card-primary {
+    --stat-color: #3498db;
+    --stat-color-light: #5dade2;
+}
+
+.page-admin-dashboard .stat-card-success {
+    --stat-color: #27ae60;
+    --stat-color-light: #58d68d;
+}
+
+.page-admin-dashboard .stat-card-info {
+    --stat-color: #8e44ad;
+    --stat-color-light: #bb8fce;
+}
+
+.page-admin-dashboard .stat-card-warning {
+    --stat-color: #f39c12;
+    --stat-color-light: #f8c471;
+}
+
+.page-admin-dashboard .stat-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.page-admin-dashboard .stat-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2c3e50;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.page-admin-dashboard .stat-change {
+    font-size: 12px;
+    color: #6c757d;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.page-admin-dashboard .stat-change i {
+    color: var(--stat-color);
+    font-size: 10px;
+}
+
+.page-admin-dashboard .stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-admin-dashboard .stat-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, var(--stat-color), var(--stat-color-light));
+    opacity: 0.9;
+}
+
+.page-admin-dashboard .stat-icon i,
+.page-admin-dashboard .stat-icon .lira-icon {
+    position: relative;
+    z-index: 1;
+}
+
+.page-admin-dashboard .lira-icon {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.page-admin-dashboard .stat-icon-primary {
+    background: linear-gradient(135deg, #3498db, #5dade2);
+}
+
+.page-admin-dashboard .stat-icon-success {
+    background: linear-gradient(135deg, #27ae60, #58d68d);
+}
+
+.page-admin-dashboard .stat-icon-info {
+    background: linear-gradient(135deg, #8e44ad, #bb8fce);
+}
+
+.page-admin-dashboard .stat-icon-warning {
+    background: linear-gradient(135deg, #f39c12, #f8c471);
+}
+
+@media (max-width: 768px) {
+    .page-admin-dashboard .stat-number {
+        font-size: 2rem;
+    
+    }
+
+    .page-admin-dashboard .stat-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    
+    }
+
+    .page-admin-dashboard .lira-icon {
+        font-size: 22px;
+    
+    }
+}
+
+/* Action Buttons */
+.page-admin-dashboard .btn-action {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 20px !important;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 25px 18px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    min-height: 90px;
+}
+
+.page-admin-dashboard a.btn-action {
+    border-radius: 20px !important;
+}
+
+.page-admin-dashboard .btn-action::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.1));
+    opacity: 0;
+}
+
+.page-admin-dashboard .btn-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 20px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.page-admin-dashboard .btn-content {
+    flex: 1;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.page-admin-dashboard .btn-title {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 3px;
+    color: white !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.page-admin-dashboard .btn-subtitle {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9) !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Primary Button */
+.page-admin-dashboard .btn-action-primary {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border-color: #2980b9;
+}
+
+.page-admin-dashboard .btn-action-primary .btn-icon {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.page-admin-dashboard .btn-action-primary:hover {
+    background: linear-gradient(135deg, #2980b9, #1f5f8b);
+    color: white;
+}
+
+/* Success Button */
+.page-admin-dashboard .btn-action-success {
+    background: linear-gradient(135deg, #27ae60, #229954);
+    color: white;
+    border-color: #229954;
+}
+
+.page-admin-dashboard .btn-action-success .btn-icon {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.page-admin-dashboard .btn-action-success:hover {
+    background: linear-gradient(135deg, #229954, #1e7e34);
+    color: white;
+}
+
+/* Info Button */
+.page-admin-dashboard .btn-action-info {
+    background: linear-gradient(135deg, #8e44ad, #7d3c98);
+    color: white;
+    border-color: #7d3c98;
+}
+
+.page-admin-dashboard .btn-action-info .btn-icon {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.page-admin-dashboard .btn-action-info:hover {
+    background: linear-gradient(135deg, #7d3c98, #6c3483);
+    color: white;
+}
+
+/* Warning Button */
+.page-admin-dashboard .btn-action-warning {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: white;
+    border-color: #e67e22;
+}
+
+.page-admin-dashboard .btn-action-warning .btn-icon {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.page-admin-dashboard .btn-action-warning:hover {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .page-admin-dashboard .btn-action {
+        padding: 20px 12px !important;
+        min-height: 80px;
+    
+    }
+
+    .page-admin-dashboard .btn-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        margin-right: 10px;
+    
+    }
+
+    .page-admin-dashboard .btn-title {
+        font-size: 13px;
+    
+    }
+
+    .page-admin-dashboard .btn-subtitle {
+        font-size: 11px;
+    
+    }
+}
+
+/* Focus states for accessibility */
+.page-admin-dashboard .btn-action:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.25);
+}

@@ -1,0 +1,24 @@
+services:
+  app:
+    container_name: meringa-next-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: meringa-next
+    ports:
+      - "8022:3000"
+    volumes:
+      # Menü verisi ve yüklenen görseller kalıcı olsun
+      - ./data:/app/data
+      - ./public/img:/app/public/img
+    environment:
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=meringa123
+      - SESSION_SECRET=degistirin-bu-anahtari-uretimde
+      - LC_ALL=tr_TR.UTF-8
+      - LANG=tr_TR.UTF-8
+    networks:
+      - meringa-network
+
+networks:
+  meringa-network:

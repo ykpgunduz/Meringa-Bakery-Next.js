@@ -1,0 +1,608 @@
+.admin-shell .sidebar {
+            min-height: 100vh;
+            background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+            transition: transform 0.3s ease;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        
+}
+
+.admin-shell .sidebar .nav-link {
+            color: #ecf0f1;
+            border-radius: 10px;
+            margin: 4px 12px;
+            padding: 14px 18px;
+            transition: all 0.3s ease;
+            position: relative;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            border: 1px solid transparent;
+            font-size: 15px;
+        
+}
+
+.admin-shell .sidebar .nav-link:hover {
+            background: rgba(52, 152, 219, 0.25);
+            color: #ffffff;
+            transform: translateX(3px);
+            border-color: rgba(52, 152, 219, 0.5);
+            box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2);
+        
+}
+
+.admin-shell .sidebar .nav-link.active {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+            border-color: #2980b9;
+        
+}
+
+.admin-shell .sidebar .nav-link.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 60%;
+            background: #ffffff;
+            border-radius: 0 2px 2px 0;
+        
+}
+
+.admin-shell .sidebar .nav-link i {
+            width: 22px;
+            text-align: center;
+            margin-right: 12px;
+            font-size: 16px;
+        
+}
+
+/* Sidebar Brand */
+.admin-shell .sidebar-brand {
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            margin-bottom: 15px;
+            background: rgba(0, 0, 0, 0.1);
+        
+}
+
+.admin-shell .sidebar-brand img {
+            filter: brightness(1.1);
+            margin-bottom: 12px;
+            max-height: 45px;
+        
+}
+
+.admin-shell .sidebar-brand-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 10px 0 5px 0;
+            letter-spacing: 0.5px;
+        
+}
+
+.admin-shell .sidebar-brand-subtitle {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.7);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        
+}
+
+/* Sidebar Dividers */
+.admin-shell .sidebar-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            margin: 20px 12px;
+            border: none;
+        
+}
+
+/* External Link Styling */
+.admin-shell .external-link {
+            background: rgba(255, 255, 255, 0.08) !important;
+            border-color: rgba(255, 255, 255, 0.2) !important;
+            margin: 4px 12px !important;
+            border-radius: 10px !important;
+            color: #ecf0f1 !important;
+        
+}
+
+.admin-shell .external-link:hover {
+            background: rgba(241, 196, 15, 0.25) !important;
+            color: #ffffff !important;
+            border-color: rgba(241, 196, 15, 0.5) !important;
+            box-shadow: 0 2px 8px rgba(241, 196, 15, 0.15) !important;
+            transform: translateX(3px) !important;
+        
+}
+
+.admin-shell .main-content {
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            padding: 0;
+        
+}
+
+/* Page Header Styling */
+.admin-shell .page-header {
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border-bottom: 1px solid #e9ecef;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        
+}
+
+.admin-shell .page-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #3498db, #2ecc71, #f39c12, #e74c3c);
+        
+}
+
+.admin-shell .page-title {
+            color: #2c3e50;
+            font-weight: 700;
+            font-size: 1.75rem;
+            margin: 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+        
+}
+
+.admin-shell .page-title::before {
+            content: '';
+            width: 4px;
+            height: 30px;
+            background: linear-gradient(180deg, #3498db, #2980b9);
+            border-radius: 2px;
+            margin-right: 12px;
+        
+}
+
+.admin-shell .page-actions .btn {
+            border-radius: 8px;
+            font-weight: 500;
+            padding: 8px 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
+}
+
+.admin-shell .page-actions .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        
+}
+
+.admin-shell .page-actions .btn-primary {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            border: none;
+        
+}
+
+.admin-shell .page-actions .btn-primary:hover {
+            background: linear-gradient(135deg, #2980b9, #1f5f8b);
+        
+}
+
+.admin-shell .card {
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            border: 1px solid rgba(0, 0, 0, 0.125);
+        
+}
+
+.admin-shell .navbar-brand img {
+            height: 40px;
+        
+}
+
+@media (max-width: 767.98px) {
+    .admin-shell .sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 280px;
+                height: 100vh;
+                z-index: 1050;
+                transform: translateX(-100%);
+            
+    }
+
+    .admin-shell .sidebar.show {
+                transform: translateX(0);
+            
+    }
+
+    .admin-shell .main-content {
+                margin-left: 0;
+                width: 100%;
+            
+    }
+
+    .admin-shell .mobile-header {
+                background: linear-gradient(135deg, #2c3e50, #34495e);
+                color: white;
+                padding: 12px 0;
+                position: sticky;
+                top: 0;
+                z-index: 1040;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            
+    }
+
+    .admin-shell .mobile-header .btn-link {
+                border-radius: 8px;
+                padding: 8px;
+                transition: all 0.3s ease;
+                border: 1px solid transparent;
+            
+    }
+
+    .admin-shell .mobile-header .btn-link:hover {
+                background: rgba(255, 255, 255, 0.1);
+                border-color: rgba(255, 255, 255, 0.2);
+                transform: scale(1.05);
+            
+    }
+
+    .admin-shell .mobile-header img {
+                border-radius: 4px;
+                transition: all 0.3s ease;
+                filter: brightness(1.1);
+            
+    }
+
+    .admin-shell .page-header {
+                margin: 0 -15px 20px -15px;
+                border-radius: 0 0 15px 15px;
+                padding: 20px 15px !important;
+            
+    }
+
+    .admin-shell .page-title {
+                font-size: 1.5rem;
+            
+    }
+
+    .admin-shell .page-title::before {
+                height: 25px;
+                margin-right: 8px;
+            
+    }
+
+    .admin-shell .table-responsive {
+                font-size: 14px;
+            
+    }
+
+    .admin-shell .btn-group .btn {
+                padding: 4px 8px;
+                font-size: 12px;
+            
+    }
+
+    .admin-shell .card-body {
+                padding: 15px;
+            
+    }
+}
+
+/* Overlay for mobile */
+.admin-shell .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1040;
+            display: none;
+        
+}
+
+@media (max-width: 767.98px) {
+    .admin-shell .sidebar-overlay.show {
+                display: block;
+            
+    }
+}
+
+@media (max-width: 575.98px) {
+    .admin-shell .form-control {
+                font-size: 16px; /* Prevents zoom on iOS */
+            
+    }
+
+    .admin-shell .btn {
+                padding: 10px 15px;
+            
+    }
+
+    .admin-shell .table th,
+    .admin-shell .table td {
+                padding: 8px 4px;
+                font-size: 13px;
+            
+    }
+
+    .admin-shell .img-thumbnail {
+                width: 40px !important;
+                height: 40px !important;
+            
+    }
+}
+
+/* Hide scrollbar for mobile sidebar */
+.admin-shell .sidebar::-webkit-scrollbar {
+            width: 6px;
+        
+}
+
+.admin-shell .sidebar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+        
+}
+
+.admin-shell .sidebar::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+        
+}
+
+.admin-shell .sidebar::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
+        
+}
+
+/* Logout button styling */
+/* Logout Button Enhanced */
+.admin-shell .logout-btn {
+            background: rgba(255, 255, 255, 0.08) !important;
+            border: 1px solid rgba(255, 255, 255, 0.2) !important;
+            border-radius: 10px !important;
+            padding: 14px 18px !important;
+            margin: 4px 12px !important;
+            transition: all 0.3s ease !important;
+            font-weight: 500 !important;
+            text-decoration: none !important;
+            display: flex !important;
+            align-items: center !important;
+            width: calc(100% - 24px) !important;
+            box-sizing: border-box !important;
+            font-size: 15px !important;
+            color: #ecf0f1 !important;
+        
+}
+
+.admin-shell .logout-btn:hover {
+            background: linear-gradient(135deg, #e74c3c, #c0392b) !important;
+            transform: translateX(3px) !important;
+            box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3) !important;
+            border-color: rgba(231, 76, 60, 0.6) !important;
+            color: #ffffff !important;
+        
+}
+
+.admin-shell .logout-btn:focus {
+            outline: none !important;
+            box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2) !important;
+        
+}
+
+.admin-shell .logout-btn i {
+            width: 22px;
+            text-align: center;
+            margin-right: 12px;
+            font-size: 16px;
+        
+}
+
+/* Close button for mobile */
+.admin-shell .sidebar-close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        
+}
+
+.admin-shell .sidebar-close-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(90deg);
+        
+}
+
+/* Harpy Social Footer */
+.admin-shell .ad-bar {
+                    background: #054ba1;
+                    text-align: center;
+                    padding: 5px;
+                    position: relative;
+                    overflow: hidden;
+                    min-height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                
+}
+
+.admin-shell .ad-bar::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: linear-gradient(120deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 40%, rgba(255, 255, 255, 0.15) 100%);
+                    opacity: 0.8;
+                    pointer-events: none;
+                    z-index: 1;
+                    animation: shimmerBar 4s linear infinite;
+                    background-size: 200% 100%;
+                
+}
+
+@keyframes shimmerBar {
+                    0% {
+                        background-position: 200% 0;
+                    }
+
+                    100% {
+                        background-position: -200% 0;
+                    }
+                }
+
+.admin-shell .ad-content.harpy-ad {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    z-index: 2;
+                    transition: all 0.3s ease;
+                
+}
+
+.admin-shell .ad-content.harpy-ad:hover {
+                    transform: translateY(-1px);
+                
+}
+
+.admin-shell .harpy-credit {
+                    height: 70px;
+                    width: auto;
+                    display: inline-block;
+                    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+                    transition: all 0.3s ease;
+                
+}
+
+.admin-shell .ad-content.harpy-ad:hover .harpy-credit {
+                    transform: scale(1.03);
+                    filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.3));
+                
+}
+
+.admin-shell .harpy-link {
+                    text-decoration: none;
+                    display: inline-block;
+                
+}
+
+@media (max-width: 480px) {
+    .admin-shell .harpy-credit {
+                        height: 75px;
+                    
+    }
+}
+
+/* Sayfa başlığı içindeki arama alanı (başlık ile işlem düğmeleri arasında) */
+.admin-shell .page-search {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1 1 240px;
+    min-width: 0;
+    margin: 0 20px;
+}
+
+.admin-shell .page-search-input-group {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.admin-shell .page-search-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.admin-shell .page-search-input {
+    width: 100%;
+    padding: 10px 38px 10px 38px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 15px;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+}
+
+.admin-shell .page-search-input::placeholder {
+    color: #94a3b8;
+}
+
+.admin-shell .page-search-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.admin-shell .page-search-clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    color: #94a3b8;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.admin-shell .page-search-clear:hover {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.admin-shell .page-search-count {
+    flex-shrink: 0;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+/* Başlık, arama ve düğme dar ekranda alt alta geçer */
+@media (max-width: 991.98px) {
+    .admin-shell .page-search {
+        order: 3;
+        flex-basis: 100%;
+        margin: 14px 0 0 0;
+    }
+}
