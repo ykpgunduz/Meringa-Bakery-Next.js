@@ -20,12 +20,11 @@ img {
     max-width: 100%;
 }
 
-/* Modal açıkken gövde kaydırmasını engelleme (category_products.blade.php) */
+/* Modal açıkken gövde kaydırmasını engelleme */
 body.no-scroll {
     overflow: hidden;
     height: 100vh;
     height: 100dvh;
-    touch-action: none;
 }
 
 /* Erişilebilir ve arama motorları için semantik gizli başlık stili */
