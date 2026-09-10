@@ -17,7 +17,6 @@ düzeltmeleri yönetim panelindeki "Alerjenler" alanından yapın.
 | ☐ | Ev Poğaçası | Glüten, Süt ve Süt Ürünleri, Yumurta, Susam | Unlu hamur, süt-tereyağı, yumurta; üzeri susam/çörek otu |
 | ☐ | Tereyağlı Simit | Glüten, Süt ve Süt Ürünleri, Susam | Buğday unlu simit, üzeri susam, tereyağı |
 | ☐ | Kruvasan | Glüten, Süt ve Süt Ürünleri, Yumurta | Milföy hamuru: un, tereyağı, yumurta sürülmüş yüzey |
-| ☐ | Roll Kruvasan | Glüten, Süt ve Süt Ürünleri, Yumurta | Kruvasan hamuru: un, tereyağı, yumurta |
 | ☐ | Küp Kruvasan | Glüten, Süt ve Süt Ürünleri, Yumurta | Kruvasan hamuru: un, tereyağı, yumurta |
 | ☐ | Pao de Queijo | Süt ve Süt Ürünleri, Yumurta | Tapyoka nişastası (glütensiz), peynir ve yumurta — un kullanılıyorsa glüten eklenmeli |
 | ☐ | Sandwich | Glüten, Süt ve Süt Ürünleri, Yumurta, Hardal | Ekmek, peynir/tereyağı, mayonez-hardal bazlı sos |

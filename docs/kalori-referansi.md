@@ -16,7 +16,6 @@ Değerler `data/products.json` içindeki `calories` alanında tutulur ve menüde
 | ☐ | Ev Poğaçası | Adet | 240 | 1 adet poğaça (~70 g) |
 | ☐ | Tereyağlı Simit | Adet | 340 | 1 adet tereyağlı simit |
 | ☐ | Kruvasan | Adet | 260 | 1 adet tereyağlı kruvasan (~60 g) |
-| ☐ | Roll Kruvasan | Adet | 300 | 1 adet roll kruvasan |
 | ☐ | Küp Kruvasan | Adet | 330 | 1 adet küp kruvasan |
 | ☐ | Pao de Queijo | Adet | 140 | 1 adet pao de queijo (~40 g) |
 | ☐ | Sandwich | Adet | 550 | 1 adet sandviç |

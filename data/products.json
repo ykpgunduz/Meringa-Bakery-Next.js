@@ -129,21 +129,6 @@
                 "active": true
             },
             {
-                "id": 6,
-                "name_tr": "Roll Kruvasan",
-                "name_en": "Roll Croissant",
-                "desc_tr": "Adet",
-                "desc_en": "Piece",
-                "price": 140,
-                "calories": 300,
-                "allergens": [
-                    "gluten",
-                    "sut",
-                    "yumurta"
-                ],
-                "active": true
-            },
-            {
                 "id": 7,
                 "name_tr": "Küp Kruvasan",
                 "name_en": "Cube Croissant",
