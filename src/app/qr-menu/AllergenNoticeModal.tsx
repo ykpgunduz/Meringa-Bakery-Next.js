@@ -60,6 +60,9 @@ export default function AllergenNoticeModal() {
           aria-labelledby="allergenModalTitle"
         >
           <div className="allergen-modal-card">
+            {/* Tutma Çubuğu (Bottom Sheet Göstergesi) */}
+            <div className="allergen-modal-handle" />
+
             {/* Modal Başlığı */}
             <div className="allergen-modal-header">
               <div className="allergen-modal-header-text">
