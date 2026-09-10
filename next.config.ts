@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Docker imajı için bağımsız (standalone) çıktı
-  output: "standalone",
+  // Docker imajı için bağımsız (standalone) çıktı; Vercel kendi paketlemesini kullandığı için Vercel'de devre dışı bırakılır
+  output: process.env.VERCEL ? undefined : "standalone",
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
